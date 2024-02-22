@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.footer{
+  grid-area: footer;
+}
+.wrapper {
+  .wrapper {
+    display: grid;
+    gap: 20px;
+    grid-template-areas:
+      "header"
+      "nav"
+      "content"
+      "sidebar"
+      "main"
+      "footer";
+  }
+}

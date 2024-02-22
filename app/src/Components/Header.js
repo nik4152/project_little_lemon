@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header() {
     return (
-        <header className="App">
+        <header className="header">
         <div className="logo">
         <img src="#"/>
         </div>
